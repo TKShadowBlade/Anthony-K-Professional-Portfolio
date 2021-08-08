@@ -40,6 +40,16 @@ header div ul li a {
     color:white;
 }
 
+header div img {
+    max-width: 200px;
+    max-height: 300px;
+    justify-content: left;
+}
+
+header div:hover img {
+    transform: none
+}
+
 main {
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
 }
@@ -54,6 +64,10 @@ section {
 
 img {
     width: 300px;
+}
+
+div:hover img {
+    transform: scale(1.5);
 }
 
 #contact-me ul {
